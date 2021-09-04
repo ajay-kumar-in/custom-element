@@ -1,0 +1,14 @@
+.headerContainer {
+    background-color: deepskyblue;
+}
+
+.headerUl li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.headerUl {
+    padding: 15px 5px;
+}
