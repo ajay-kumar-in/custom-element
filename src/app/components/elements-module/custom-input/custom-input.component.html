@@ -4,6 +4,6 @@
         <div class="tagsContainer">
             <span *ngFor="let tag of tags; let tagIndex = index" class="tags" >{{tag}}<span class="delTag" (click)="onDeleteTag(tagIndex)">&#x2715;</span></span>
         </div>
-        <input type="text" class="inputElement" #tagName (keydown.enter)="noCreateTag(tagName.value); tagName.value = ''">
+        <input type="text" class="inputElement" #tagName (keydown.enter)="noCreateTag(tagName.value); tagName.value = ''" placeholder="Enter tag name">
     </div>
 </div>

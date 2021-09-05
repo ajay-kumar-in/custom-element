@@ -15,7 +15,7 @@ export class CustomInputComponent implements OnInit {
   }
 
   noCreateTag(tagName: string) {
-    if(tagName.length <= 0) return;
+    if(tagName.trim().length <= 0) return;
     this.tags.push(tagName);
   }
 
