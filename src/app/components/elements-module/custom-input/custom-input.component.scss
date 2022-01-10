@@ -1,0 +1,46 @@
+.containerBody {
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.lableDiv {
+    margin-bottom: 5px;
+}
+
+.inputElementContainer {
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+}
+
+.tagsContainer {
+    margin: 5px 0px 10px;
+}
+
+.tags {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 2px;
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: #F8F8F8;
+    color: #676571;
+}
+
+.inputElement {
+    border: 0;
+    width: 98%;
+    margin: 5px 0px;
+    color: #676571;
+    padding: 0px 10px;
+}
+
+.inputElement:focus {
+    outline: none
+}
+
+.delTag {
+    color: red;
+    font-size: small;
+    padding: 0 5px;
+    cursor: pointer;
+}
