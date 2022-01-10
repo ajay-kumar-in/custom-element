@@ -42,7 +42,7 @@ jobs:
               cache: 'npm'
               # cache-dependency-path: subdir/package-lock.json
         - run: npm install
-        - run: ng test
-        - run: ng build
+        - run: npm test
+        - run: npm build
 
     
