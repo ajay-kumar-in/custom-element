@@ -4,7 +4,9 @@ jobs:
   build:
     runs-on: windows-latest
     steps:
-      - run: npm run install
+      - run: git checkout master
+      - run: git pull origin master
+      - run: npm install
       - run: ng test
       - run: ng build
 
