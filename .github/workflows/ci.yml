@@ -1,27 +1,4 @@
-# name: Build on Windows
-# on: push
-# jobs:
-#   build:
-#     runs-on: windows-latest
-#     steps:
-#       - run: git checkout master
-#       - run: git pull origin master
-#       - run: npm install
-#       - run: ng test
-#       - run: ng build
-
-
-#       runs-on: ubuntu-latest
-#       steps:
-#         - name: Check out repository code
-#           uses: actions/checkout@v2
-#         - name: Install jq tool
-#           run: |
-#             sudo apt-get update
-#             sudo apt-get install jq
-
-
-name: CI
+name: CI 111
 
 on:
   push:
